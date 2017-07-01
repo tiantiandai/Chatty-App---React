@@ -3,15 +3,20 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css");
 
  body {
-    background: white;
+    background: aliceblue;
     color: black;
     font-family: ‘Open Sans’, sans-serif;
     font-size: 14px;
     margin: 70px 0;
   }
 
+  .userCount {
+    float: right;
+    line-height: 60px
+  }
+
  .chatbar {
-    background: tomato;
+    background: lightpink;
     border-top: 1px solid black;
     bottom: 0;
     display: flex;
@@ -66,7 +71,7 @@
   }
 
  .navbar {
-    background: tomato;
+    background: lavenderblush;
     border-bottom: 1px solid black;
     height: 60px;
     left: 0;
